@@ -1,8 +1,8 @@
 {
   "name": "wsl-cli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "node cli脚手架工具",
-  "main": "lib/main.js",
+  "main": "main.js",
   "directories": {
     "lib": "lib"
   },
@@ -10,8 +10,8 @@
     "test": "npm test"
   },
   "bin": {
-    "wsl": "lib/main.js",
-    "wsl-cli": "lib/main.js"
+    "wsl": "main.js",
+    "wsl-cli": "main.js"
   },
   "repository": {
     "type": "git",

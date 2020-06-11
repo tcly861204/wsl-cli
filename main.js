@@ -1,9 +1,9 @@
-'use strict';
+#!/usr/bin/env node
 const program = require('commander');
 const shell = require('shelljs');
 const chalk = require('chalk');
 const inquirer = require('inquirer');
-const clone = require('./clone');
+const clone = require('./lib/clone');
 const pkg = require('./package');
 program
   .version(pkg.version)
