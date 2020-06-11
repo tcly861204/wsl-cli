@@ -1,0 +1,40 @@
+{
+  "name": "wsl-cli",
+  "version": "1.0.0",
+  "description": "node cli脚手架工具",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "wsl": "lib/main.js",
+    "wsl-cli": "lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcly861204/wsl-cli.git"
+  },
+  "keywords": [
+    "node",
+    "vue",
+    "react",
+    "koa",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.4"
+  },
+  "author": "tcly861204 <tcly861204@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcly861204/wsl-cli/issues"
+  },
+  "homepage": "https://github.com/tcly861204/wsl-cli#readme"
+}
